@@ -52,3 +52,5 @@ class CustomerChurnTestCase(TestCase):
         self.assertEqual(self.obj.customer_service_calls,3)
         self.assertEqual(self.obj.churn,False)
         
+# To test, run docker compose up. Go to django container in docker desktop.
+# Open terminal in container. Run python manage.py test
