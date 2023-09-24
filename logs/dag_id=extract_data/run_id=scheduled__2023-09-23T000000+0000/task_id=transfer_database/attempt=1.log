@@ -1,0 +1,32 @@
+[2023-09-24T02:01:26.472+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: extract_data.transfer_database scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-09-24T02:01:26.493+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: extract_data.transfer_database scheduled__2023-09-23T00:00:00+00:00 [queued]>
+[2023-09-24T02:01:26.494+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-24T02:01:26.495+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-09-24T02:01:26.496+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-24T02:01:26.526+0000] {taskinstance.py:1383} INFO - Executing <Task(GenericTransfer): transfer_database> on 2023-09-23 00:00:00+00:00
+[2023-09-24T02:01:26.536+0000] {standard_task_runner.py:55} INFO - Started process 76 to run task
+[2023-09-24T02:01:26.542+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'extract_data', 'transfer_database', 'scheduled__2023-09-23T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmpw3ki5gdh']
+[2023-09-24T02:01:26.543+0000] {standard_task_runner.py:83} INFO - Job 92: Subtask transfer_database
+[2023-09-24T02:01:26.680+0000] {task_command.py:376} INFO - Running <TaskInstance: extract_data.transfer_database scheduled__2023-09-23T00:00:00+00:00 [running]> on host 20e0c20d2e1d
+[2023-09-24T02:01:26.854+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=extract_data
+AIRFLOW_CTX_TASK_ID=transfer_database
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-09-23T00:00:00+00:00
+[2023-09-24T02:01:26.872+0000] {base.py:71} INFO - Using connection ID 'pgdatabase' for task execution.
+[2023-09-24T02:01:27.323+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-09-24T02:01:27.674+0000] {generic_transfer.py:76} INFO - Extracting data from pgdatabase
+[2023-09-24T02:01:27.675+0000] {generic_transfer.py:77} INFO - Executing: 
+ SELECT state,account_length,area_code,phone_number,international_plan,voice_mail_plan,number_vmail_messages,total_day_minutes,total_day_calls,total_day_charge,total_eve_minutes,total_eve_calls,total_eve_charge,total_night_minutes,total_night_calls,total_night_charge,total_intl_minutes,total_intl_calls,total_intl_charge,customer_service_calls,churn FROM public.machine_learning_customerchurn WHERE customer_service_calls > 2;
+[2023-09-24T02:01:27.685+0000] {base.py:71} INFO - Using connection ID 'pgdatabase' for task execution.
+[2023-09-24T02:01:27.706+0000] {generic_transfer.py:104} INFO - Inserting rows into postgres
+[2023-09-24T02:01:27.718+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-09-24T02:01:28.122+0000] {sql.py:412} INFO - Loaded 1000 rows into machine_learning_customerchurn so far
+[2023-09-24T02:01:28.262+0000] {sql.py:415} INFO - Done loading. Loaded a total of 1392 rows
+[2023-09-24T02:01:28.278+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=extract_data, task_id=transfer_database, execution_date=20230923T000000, start_date=20230924T020126, end_date=20230924T020128
+[2023-09-24T02:01:28.320+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-09-24T02:01:28.351+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

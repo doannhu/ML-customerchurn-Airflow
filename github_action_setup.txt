@@ -1,0 +1,7 @@
+on: github
+go: settings/branches/add branch protection rule
+fill: branch name pattern: main
+check: require a pull request before merging 
+check: require approvals
+check: require status checks to pass before merging
+check: require branches to be up to date before merging
