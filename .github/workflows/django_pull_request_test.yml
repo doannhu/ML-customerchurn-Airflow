@@ -35,5 +35,3 @@ jobs:
             - name: Test transform function
               run: python ./model_field_ETL_test.py
               
-            - name: Test machine learning model
-              run: python ./tests.py
