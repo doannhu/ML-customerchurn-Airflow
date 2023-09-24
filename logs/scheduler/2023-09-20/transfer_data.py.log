@@ -1,0 +1,286 @@
+[2023-09-20T23:49:02.642+0000] {processor.py:154} INFO - Started process (PID=22665) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:02.643+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:49:02.644+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:49:02.644+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:02.678+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:49:02.673+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:49:02.679+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:02.698+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.060 seconds
+[2023-09-20T23:49:33.266+0000] {processor.py:154} INFO - Started process (PID=22694) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:33.267+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:49:33.268+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:49:33.268+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:33.301+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:49:33.297+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:49:33.301+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:49:33.388+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.125 seconds
+[2023-09-20T23:50:03.971+0000] {processor.py:154} INFO - Started process (PID=22724) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:03.974+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:50:03.979+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:50:03.978+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:04.044+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:50:04.035+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:50:04.045+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:04.080+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.117 seconds
+[2023-09-20T23:50:34.466+0000] {processor.py:154} INFO - Started process (PID=22753) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:34.468+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:50:34.469+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:50:34.469+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:34.509+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:50:34.501+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:50:34.511+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:50:34.536+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.075 seconds
+[2023-09-20T23:51:04.894+0000] {processor.py:154} INFO - Started process (PID=22776) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:04.895+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:51:04.896+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:04.895+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:04.931+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:04.922+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:51:04.932+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:04.953+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.062 seconds
+[2023-09-20T23:51:11.100+0000] {processor.py:154} INFO - Started process (PID=22787) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:11.102+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:51:11.104+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:11.103+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:11.182+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:11.176+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:51:11.183+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:11.222+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.127 seconds
+[2023-09-20T23:51:41.772+0000] {processor.py:154} INFO - Started process (PID=22807) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:41.774+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:51:41.776+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:41.776+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:41.826+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:51:41.819+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:51:41.827+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:51:41.854+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.088 seconds
+[2023-09-20T23:52:12.240+0000] {processor.py:154} INFO - Started process (PID=22836) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:12.241+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:52:12.242+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:52:12.242+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:12.271+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:52:12.264+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:52:12.271+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:12.323+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.086 seconds
+[2023-09-20T23:52:42.616+0000] {processor.py:154} INFO - Started process (PID=22866) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:42.617+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:52:42.618+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:52:42.618+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:42.642+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:52:42.639+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:52:42.643+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:52:42.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.104 seconds
+[2023-09-20T23:53:13.267+0000] {processor.py:154} INFO - Started process (PID=22896) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:13.269+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:53:13.270+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:53:13.270+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:13.306+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:53:13.298+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:53:13.307+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:13.389+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.125 seconds
+[2023-09-20T23:53:44.162+0000] {processor.py:154} INFO - Started process (PID=22917) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:44.163+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:53:44.164+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:53:44.164+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:44.192+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:53:44.186+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/transfer_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/transfer_data.py", line 29, in <module>
+    catchup=False) as dag :
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 427, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 56, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'Generic Transfer Operator' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-09-20T23:53:44.193+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:53:44.213+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.054 seconds
+[2023-09-20T23:54:03.429+0000] {processor.py:154} INFO - Started process (PID=22936) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:03.431+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:54:03.431+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.431+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:03.499+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:03.909+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.909+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:generic_transfer_operator
+[2023-09-20T23:54:03.923+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.922+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:generic_transfer_operator
+[2023-09-20T23:54:03.934+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.933+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:generic_transfer_operator
+[2023-09-20T23:54:03.935+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.934+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:54:03.950+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.949+0000] {dag.py:2606} INFO - Creating ORM DAG for generic_transfer_operator
+[2023-09-20T23:54:03.964+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:03.964+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:54:03.997+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.572 seconds
+[2023-09-20T23:54:34.266+0000] {processor.py:154} INFO - Started process (PID=22966) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:34.267+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:54:34.268+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:34.268+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:34.308+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:54:34.346+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:34.346+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:54:34.369+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:54:34.369+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:54:34.390+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.130 seconds
+[2023-09-20T23:55:04.846+0000] {processor.py:154} INFO - Started process (PID=22986) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:04.856+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:55:04.863+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:04.862+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:04.992+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:05.090+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:05.089+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:55:05.126+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:05.126+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:55:05.212+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.375 seconds
+[2023-09-20T23:55:35.733+0000] {processor.py:154} INFO - Started process (PID=23016) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:35.734+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:55:35.736+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:35.735+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:35.774+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:55:35.810+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:35.810+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:55:35.831+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:55:35.831+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:55:35.980+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.249 seconds
+[2023-09-20T23:56:06.354+0000] {processor.py:154} INFO - Started process (PID=23047) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:06.355+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:56:06.356+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:06.356+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:06.390+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:06.429+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:06.428+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:56:06.590+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:06.590+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:56:06.666+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.316 seconds
+[2023-09-20T23:56:37.291+0000] {processor.py:154} INFO - Started process (PID=23068) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:37.293+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:56:37.295+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:37.295+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:37.347+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:56:37.411+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:37.411+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:56:37.621+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:56:37.621+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:56:37.647+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.361 seconds
+[2023-09-20T23:57:08.003+0000] {processor.py:154} INFO - Started process (PID=23099) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:08.003+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:57:08.004+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:08.004+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:08.035+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:08.072+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:08.071+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:57:08.229+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:08.229+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:57:08.246+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.246 seconds
+[2023-09-20T23:57:38.686+0000] {processor.py:154} INFO - Started process (PID=23129) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:38.687+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:57:38.688+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:38.688+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:38.726+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:57:38.766+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:38.765+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:57:38.791+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:57:38.790+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:57:38.810+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.128 seconds
+[2023-09-20T23:58:09.242+0000] {processor.py:154} INFO - Started process (PID=23159) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:09.244+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:58:09.245+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:09.244+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:09.275+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:09.309+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:09.309+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:58:09.330+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:09.330+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:58:09.354+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.115 seconds
+[2023-09-20T23:58:39.812+0000] {processor.py:154} INFO - Started process (PID=23180) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:39.813+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:58:39.814+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:39.814+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:39.845+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:58:39.879+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:39.879+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:58:39.900+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:58:39.900+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:58:39.931+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.122 seconds
+[2023-09-20T23:59:10.371+0000] {processor.py:154} INFO - Started process (PID=23210) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:10.376+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:59:10.377+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:10.377+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:10.445+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:10.565+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:10.565+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:59:10.857+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:10.857+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:59:10.890+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.524 seconds
+[2023-09-20T23:59:41.396+0000] {processor.py:154} INFO - Started process (PID=23241) to work on /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:41.397+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/transfer_data.py for tasks to queue
+[2023-09-20T23:59:41.399+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:41.399+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:41.530+0000] {processor.py:766} INFO - DAG(s) dict_keys(['generic_transfer_operator']) retrieved from /opt/airflow/dags/transfer_data.py
+[2023-09-20T23:59:41.622+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:41.622+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-20T23:59:41.865+0000] {logging_mixin.py:120} INFO - [2023-09-20T23:59:41.865+0000] {dag.py:3340} INFO - Setting next_dagrun for generic_transfer_operator to 2023-09-19T00:00:00+00:00, run_after=2023-09-20T00:00:00+00:00
+[2023-09-20T23:59:41.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/transfer_data.py took 0.503 seconds

@@ -1,0 +1,44 @@
+[2023-09-23T08:30:11.133+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: extract_data.transfer_database manual__2023-09-23T08:30:09.760147+00:00 [queued]>
+[2023-09-23T08:30:11.144+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: extract_data.transfer_database manual__2023-09-23T08:30:09.760147+00:00 [queued]>
+[2023-09-23T08:30:11.145+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-23T08:30:11.146+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-09-23T08:30:11.147+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-23T08:30:11.160+0000] {taskinstance.py:1383} INFO - Executing <Task(GenericTransfer): transfer_database> on 2023-09-23 08:30:09.760147+00:00
+[2023-09-23T08:30:11.164+0000] {standard_task_runner.py:55} INFO - Started process 5501 to run task
+[2023-09-23T08:30:11.166+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'extract_data', 'transfer_database', 'manual__2023-09-23T08:30:09.760147+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmp0ort5ouj']
+[2023-09-23T08:30:11.168+0000] {standard_task_runner.py:83} INFO - Job 66: Subtask transfer_database
+[2023-09-23T08:30:11.219+0000] {task_command.py:376} INFO - Running <TaskInstance: extract_data.transfer_database manual__2023-09-23T08:30:09.760147+00:00 [running]> on host 411713a30e55
+[2023-09-23T08:30:11.278+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=extract_data
+AIRFLOW_CTX_TASK_ID=transfer_database
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-23T08:30:09.760147+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-09-23T08:30:09.760147+00:00
+[2023-09-23T08:30:11.285+0000] {base.py:71} INFO - Using connection ID 'pgdatabase' for task execution.
+[2023-09-23T08:30:11.440+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-09-23T08:30:11.569+0000] {generic_transfer.py:76} INFO - Extracting data from pgdatabase
+[2023-09-23T08:30:11.570+0000] {generic_transfer.py:77} INFO - Executing: 
+ SELECT * FROM machine_learning_customerchurn;
+[2023-09-23T08:30:11.576+0000] {base.py:71} INFO - Using connection ID 'pgdatabase' for task execution.
+[2023-09-23T08:30:11.586+0000] {generic_transfer.py:104} INFO - Inserting rows into postgres
+[2023-09-23T08:30:11.591+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-09-23T08:30:11.594+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/generic_transfer.py", line 105, in execute
+    insert_rows(table=self.destination_table, rows=results, **self.insert_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 409, in insert_rows
+    cur.execute(sql, values)
+psycopg2.errors.UndefinedTable: relation "machine_learing_customerchurn" does not exist
+LINE 1: INSERT INTO machine_learing_customerchurn  VALUES (1,'MT',73...
+                    ^
+
+[2023-09-23T08:30:11.601+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=extract_data, task_id=transfer_database, execution_date=20230923T083009, start_date=20230923T083011, end_date=20230923T083011
+[2023-09-23T08:30:11.611+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 66 for task transfer_database (relation "machine_learing_customerchurn" does not exist
+LINE 1: INSERT INTO machine_learing_customerchurn  VALUES (1,'MT',73...
+                    ^
+; 5501)
+[2023-09-23T08:30:11.620+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-09-23T08:30:11.638+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

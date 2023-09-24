@@ -1,0 +1,24 @@
+[2023-09-23T12:45:59.691+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: process_data.get_data manual__2023-09-23T12:45:58.454800+00:00 [queued]>
+[2023-09-23T12:45:59.704+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: process_data.get_data manual__2023-09-23T12:45:58.454800+00:00 [queued]>
+[2023-09-23T12:45:59.704+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-23T12:45:59.705+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-09-23T12:45:59.706+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-23T12:45:59.720+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): get_data> on 2023-09-23 12:45:58.454800+00:00
+[2023-09-23T12:45:59.726+0000] {standard_task_runner.py:55} INFO - Started process 6556 to run task
+[2023-09-23T12:45:59.728+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'process_data', 'get_data', 'manual__2023-09-23T12:45:58.454800+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/data_retrieval.py', '--cfg-path', '/tmp/tmplle25a4m']
+[2023-09-23T12:45:59.729+0000] {standard_task_runner.py:83} INFO - Job 84: Subtask get_data
+[2023-09-23T12:45:59.791+0000] {task_command.py:376} INFO - Running <TaskInstance: process_data.get_data manual__2023-09-23T12:45:58.454800+00:00 [running]> on host 35dd594c6205
+[2023-09-23T12:45:59.857+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=process_data
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-23T12:45:58.454800+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-09-23T12:45:58.454800+00:00
+[2023-09-23T12:45:59.867+0000] {base.py:71} INFO - Using connection ID 'pgdatabase' for task execution.
+[2023-09-23T12:45:59.893+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-09-23T12:45:59.903+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=process_data, task_id=get_data, execution_date=20230923T124558, start_date=20230923T124559, end_date=20230923T124559
+[2023-09-23T12:45:59.942+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-09-23T12:45:59.961+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

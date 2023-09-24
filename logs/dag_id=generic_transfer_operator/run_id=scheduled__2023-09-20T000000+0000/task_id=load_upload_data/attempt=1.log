@@ -1,0 +1,34 @@
+[2023-09-21T00:03:19.540+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: generic_transfer_operator.load_upload_data scheduled__2023-09-20T00:00:00+00:00 [queued]>
+[2023-09-21T00:03:19.551+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: generic_transfer_operator.load_upload_data scheduled__2023-09-20T00:00:00+00:00 [queued]>
+[2023-09-21T00:03:19.551+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-21T00:03:19.552+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-09-21T00:03:19.552+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-21T00:03:19.570+0000] {taskinstance.py:1383} INFO - Executing <Task(GenericTransfer): load_upload_data> on 2023-09-20 00:00:00+00:00
+[2023-09-21T00:03:19.579+0000] {standard_task_runner.py:55} INFO - Started process 22338 to run task
+[2023-09-21T00:03:19.582+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'generic_transfer_operator', 'load_upload_data', 'scheduled__2023-09-20T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/transfer_data.py', '--cfg-path', '/tmp/tmpiouba1b2']
+[2023-09-21T00:03:19.583+0000] {standard_task_runner.py:83} INFO - Job 18: Subtask load_upload_data
+[2023-09-21T00:03:19.653+0000] {task_command.py:376} INFO - Running <TaskInstance: generic_transfer_operator.load_upload_data scheduled__2023-09-20T00:00:00+00:00 [running]> on host 411713a30e55
+[2023-09-21T00:03:19.722+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=generic_transfer_operator
+AIRFLOW_CTX_TASK_ID=load_upload_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-09-20T00:00:00+00:00
+[2023-09-21T00:03:19.743+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/generic_transfer.py", line 73, in execute
+    source_hook = BaseHook.get_hook(self.source_conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 84, in get_hook
+    connection = cls.get_connection(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 70, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 432, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `source_conn` isn't defined
+[2023-09-21T00:03:19.749+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=generic_transfer_operator, task_id=load_upload_data, execution_date=20230920T000000, start_date=20230921T000319, end_date=20230921T000319
+[2023-09-21T00:03:19.764+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 18 for task load_upload_data (The conn_id `source_conn` isn't defined; 22338)
+[2023-09-21T00:03:19.795+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-09-21T00:03:19.817+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

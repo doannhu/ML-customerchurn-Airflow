@@ -1,0 +1,30 @@
+# pgdatabase
+Connection Id = pgdatabase 	
+Connection Type = Postgres 	
+Description 	
+Host = pgdatabase	
+Schema = postgres	
+Login = admin	
+Password = admin	
+Port = 5432	
+Extra 
+
+# postgres
+Connection Id = postgres	
+Connection Type = Postgres 	
+Description 	
+Host = postgres	
+Schema 
+Login = airflow	
+Password = airflow	
+Port = 5432	
+Extra 
+
+# db commands
+psql -U admin -d postgres
+psql -U airflow -d airflow
+/dt
+
+
+# flower dashboard
+docker compose --profile flower up -d

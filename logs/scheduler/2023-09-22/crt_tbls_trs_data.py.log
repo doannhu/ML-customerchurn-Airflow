@@ -1,0 +1,329 @@
+[2023-09-22T23:34:44.994+0000] {processor.py:154} INFO - Started process (PID=45) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:34:44.995+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:34:44.997+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:34:44.997+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:34:45.090+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:34:45.160+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:34:45.160+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:34:45.182+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:34:45.182+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-01T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-22T23:34:45.226+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.235 seconds
+[2023-09-22T23:35:15.433+0000] {processor.py:154} INFO - Started process (PID=73) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:15.435+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:35:15.436+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:15.436+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:15.504+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:15.539+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:15.538+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:35:15.559+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:15.559+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-01T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-22T23:35:15.580+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.149 seconds
+[2023-09-22T23:35:45.630+0000] {processor.py:154} INFO - Started process (PID=100) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:45.631+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:35:45.632+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:45.632+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:45.699+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:35:45.733+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:45.733+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:35:45.755+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:35:45.754+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-01T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-22T23:35:45.785+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.158 seconds
+[2023-09-22T23:36:15.843+0000] {processor.py:154} INFO - Started process (PID=119) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:15.844+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:36:15.844+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:15.844+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:15.892+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:15.922+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:15.921+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:36:15.943+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:15.943+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-01T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-22T23:36:16.018+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.178 seconds
+[2023-09-22T23:36:46.216+0000] {processor.py:154} INFO - Started process (PID=147) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:46.217+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:36:46.218+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:46.218+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:46.283+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:36:46.318+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:46.318+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:36:46.343+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:36:46.343+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-01T00:00:00+00:00, run_after=2023-09-01T00:00:00+00:00
+[2023-09-22T23:36:46.367+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.154 seconds
+[2023-09-22T23:37:16.417+0000] {processor.py:154} INFO - Started process (PID=187) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:16.418+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:37:16.418+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:16.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:16.464+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:16.489+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:16.489+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:37:16.507+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:16.507+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:37:16.577+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.161 seconds
+[2023-09-22T23:37:46.757+0000] {processor.py:154} INFO - Started process (PID=206) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:46.757+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:37:46.758+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:46.758+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:46.805+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:37:46.830+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:46.830+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:37:46.846+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:37:46.846+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:37:46.861+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.106 seconds
+[2023-09-22T23:38:16.976+0000] {processor.py:154} INFO - Started process (PID=234) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:16.977+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:38:16.977+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:16.977+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:17.024+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:17.052+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:17.052+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:38:17.069+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:17.069+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:38:17.149+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.175 seconds
+[2023-09-22T23:38:47.333+0000] {processor.py:154} INFO - Started process (PID=262) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:47.334+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:38:47.334+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:47.334+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:47.387+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:38:47.416+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:47.416+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:38:47.433+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:38:47.433+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:38:47.450+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.119 seconds
+[2023-09-22T23:39:17.623+0000] {processor.py:154} INFO - Started process (PID=282) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:17.624+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:39:17.625+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:17.625+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:17.689+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:17.725+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:17.725+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:39:17.748+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:17.748+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:39:17.828+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.207 seconds
+[2023-09-22T23:39:48.069+0000] {processor.py:154} INFO - Started process (PID=309) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:48.071+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:39:48.071+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:48.071+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:48.121+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:39:48.148+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:48.148+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:39:48.169+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:39:48.169+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:39:48.185+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.118 seconds
+[2023-09-22T23:40:18.270+0000] {processor.py:154} INFO - Started process (PID=337) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:18.271+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:40:18.272+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:18.272+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:18.328+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:18.357+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:18.357+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:40:18.376+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:18.376+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:40:18.396+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.130 seconds
+[2023-09-22T23:40:48.565+0000] {processor.py:154} INFO - Started process (PID=365) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:48.566+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:40:48.567+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:48.567+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:48.614+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:40:48.640+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:48.639+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:40:48.656+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:40:48.656+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:40:48.677+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.114 seconds
+[2023-09-22T23:41:18.772+0000] {processor.py:154} INFO - Started process (PID=384) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:18.773+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:41:18.773+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:18.773+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:18.821+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:18.849+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:18.848+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:41:18.865+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:18.865+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:41:18.882+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.113 seconds
+[2023-09-22T23:41:49.076+0000] {processor.py:154} INFO - Started process (PID=413) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:49.076+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:41:49.077+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:49.077+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:49.139+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:41:49.184+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:49.184+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:41:49.209+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:41:49.209+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:41:49.296+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.223 seconds
+[2023-09-22T23:42:07.206+0000] {processor.py:154} INFO - Started process (PID=432) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:07.207+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:42:07.208+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:07.208+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:07.285+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:07.350+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:07.349+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:42:07.370+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:07.370+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:42:07.446+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.242 seconds
+[2023-09-22T23:42:37.623+0000] {processor.py:154} INFO - Started process (PID=451) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:37.624+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:42:37.624+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:37.624+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:37.672+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:42:37.699+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:37.698+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:42:37.715+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:42:37.715+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:42:37.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.174 seconds
+[2023-09-22T23:43:07.853+0000] {processor.py:154} INFO - Started process (PID=478) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:07.854+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:43:07.854+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:07.854+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:07.903+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:07.929+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:07.929+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:43:07.946+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:07.946+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:43:08.020+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.170 seconds
+[2023-09-22T23:43:38.276+0000] {processor.py:154} INFO - Started process (PID=506) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:38.277+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:43:38.278+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:38.278+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:38.325+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:43:38.350+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:38.350+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:43:38.369+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:43:38.369+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:43:38.443+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.168 seconds
+[2023-09-22T23:44:08.490+0000] {processor.py:154} INFO - Started process (PID=532) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:08.491+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:44:08.492+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:08.492+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:08.558+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:08.589+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:08.589+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:44:08.611+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:08.611+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:44:08.635+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.148 seconds
+[2023-09-22T23:44:38.866+0000] {processor.py:154} INFO - Started process (PID=553) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:38.867+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:44:38.867+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:38.867+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:38.943+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:44:38.975+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:38.975+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:44:38.996+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:44:38.996+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:44:39.013+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.150 seconds
+[2023-09-22T23:45:09.094+0000] {processor.py:154} INFO - Started process (PID=581) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:09.095+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:45:09.096+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:09.096+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:09.142+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:09.180+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:09.180+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:45:09.204+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:09.204+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:45:09.231+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.140 seconds
+[2023-09-22T23:45:39.428+0000] {processor.py:154} INFO - Started process (PID=609) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:39.429+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:45:39.430+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:39.430+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:39.494+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:45:39.530+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:39.530+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:45:39.553+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:45:39.553+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:45:39.581+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.156 seconds
+[2023-09-22T23:46:09.628+0000] {processor.py:154} INFO - Started process (PID=628) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:09.629+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:46:09.630+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:09.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:09.696+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:09.734+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:09.734+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:46:09.756+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:09.756+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:46:09.775+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.149 seconds
+[2023-09-22T23:46:39.861+0000] {processor.py:154} INFO - Started process (PID=656) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:39.862+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:46:39.863+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:39.863+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:39.911+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:46:39.939+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:39.939+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:46:39.956+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:46:39.956+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:46:39.980+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.121 seconds
+[2023-09-22T23:47:10.087+0000] {processor.py:154} INFO - Started process (PID=684) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:10.088+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:47:10.089+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:10.089+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:10.137+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:10.163+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:10.163+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:47:10.180+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:10.180+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:47:10.197+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.112 seconds
+[2023-09-22T23:47:40.405+0000] {processor.py:154} INFO - Started process (PID=703) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:40.406+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:47:40.407+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:40.406+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:40.470+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:47:40.507+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:40.507+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:47:40.533+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:47:40.533+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:47:40.551+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.148 seconds
+[2023-09-22T23:48:10.611+0000] {processor.py:154} INFO - Started process (PID=731) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:10.612+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:48:10.612+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:10.612+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:10.659+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:10.689+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:10.688+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:48:10.710+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:10.710+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:48:10.748+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.140 seconds
+[2023-09-22T23:48:40.989+0000] {processor.py:154} INFO - Started process (PID=760) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:40.990+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:48:40.990+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:40.990+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:41.042+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:48:41.071+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:41.071+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:48:41.091+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:48:41.091+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:48:41.110+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.124 seconds
+[2023-09-22T23:49:11.227+0000] {processor.py:154} INFO - Started process (PID=788) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:11.228+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:49:11.229+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:11.229+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:11.287+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:11.319+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:11.319+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:49:11.339+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:11.339+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:49:11.360+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.134 seconds
+[2023-09-22T23:49:41.524+0000] {processor.py:154} INFO - Started process (PID=807) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:41.524+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:49:41.525+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:41.525+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:41.575+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:49:41.604+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:41.603+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:49:41.621+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:49:41.621+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:49:41.696+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.175 seconds
+[2023-09-22T23:50:11.770+0000] {processor.py:154} INFO - Started process (PID=835) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:11.773+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:50:11.774+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:11.774+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:11.862+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:11.894+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:11.894+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:50:11.916+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:11.916+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:50:11.988+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.222 seconds
+[2023-09-22T23:50:42.111+0000] {processor.py:154} INFO - Started process (PID=863) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:42.112+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:50:42.113+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:42.112+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:42.176+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:50:42.210+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:42.210+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:50:42.239+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:50:42.238+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:50:42.265+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.157 seconds
+[2023-09-22T23:51:12.387+0000] {processor.py:154} INFO - Started process (PID=882) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:12.388+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:51:12.388+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:12.388+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:12.439+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:12.469+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:12.469+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:51:12.487+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:12.487+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:51:12.505+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.121 seconds
+[2023-09-22T23:51:42.650+0000] {processor.py:154} INFO - Started process (PID=910) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:42.651+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:51:42.652+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:42.652+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:42.713+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:42.748+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:42.748+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:51:42.772+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:42.772+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to None, run_after=None
+[2023-09-22T23:51:42.868+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.221 seconds
+[2023-09-22T23:51:48.938+0000] {processor.py:154} INFO - Started process (PID=920) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:48.940+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:51:48.941+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:48.941+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:49.034+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:51:49.096+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:49.095+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:51:49.118+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:51:49.118+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-21T00:00:00+00:00, run_after=2023-09-22T00:00:00+00:00
+[2023-09-22T23:51:49.202+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.266 seconds
+[2023-09-22T23:52:19.400+0000] {processor.py:154} INFO - Started process (PID=939) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:19.401+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:52:19.402+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:19.402+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:19.463+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:19.498+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:19.498+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:52:19.522+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:19.522+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:52:19.619+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.221 seconds
+[2023-09-22T23:52:49.846+0000] {processor.py:154} INFO - Started process (PID=967) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:49.847+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:52:49.848+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:49.848+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:49.906+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:52:49.937+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:49.937+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:52:49.959+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:52:49.959+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:52:50.037+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.194 seconds
+[2023-09-22T23:53:20.228+0000] {processor.py:154} INFO - Started process (PID=995) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:20.229+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:53:20.230+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:20.230+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:20.289+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:20.328+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:20.328+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:53:20.356+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:20.356+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:53:20.434+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.208 seconds
+[2023-09-22T23:53:50.616+0000] {processor.py:154} INFO - Started process (PID=1015) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:50.617+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:53:50.618+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:50.617+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:50.666+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:53:50.692+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:50.692+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:53:50.710+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:53:50.710+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:53:50.746+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.132 seconds
+[2023-09-22T23:54:20.839+0000] {processor.py:154} INFO - Started process (PID=1043) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:20.840+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:54:20.841+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:20.840+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:20.898+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:20.935+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:20.935+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:54:20.959+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:20.959+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:54:20.983+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.146 seconds
+[2023-09-22T23:54:51.274+0000] {processor.py:154} INFO - Started process (PID=1071) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:51.275+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:54:51.276+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:51.276+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:51.342+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:54:51.376+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:51.376+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:54:51.399+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:54:51.399+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:54:51.426+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.155 seconds
+[2023-09-22T23:55:21.476+0000] {processor.py:154} INFO - Started process (PID=1099) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:21.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:55:21.478+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:21.478+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:21.548+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:21.583+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:21.583+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:55:21.611+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:21.611+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:55:21.705+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.231 seconds
+[2023-09-22T23:55:51.834+0000] {processor.py:154} INFO - Started process (PID=1117) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:51.835+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:55:51.835+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:51.835+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:51.898+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:55:51.924+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:51.924+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:55:51.943+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:55:51.943+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:55:51.957+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.126 seconds
+[2023-09-22T23:56:22.148+0000] {processor.py:154} INFO - Started process (PID=1145) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:22.149+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:56:22.150+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:22.150+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:22.213+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:22.244+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:22.244+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:56:22.263+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:22.263+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:56:22.342+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.196 seconds
+[2023-09-22T23:56:52.545+0000] {processor.py:154} INFO - Started process (PID=1173) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:52.546+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:56:52.547+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:52.547+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:52.610+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:56:52.643+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:52.643+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:56:52.668+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:56:52.668+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:56:52.779+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.237 seconds
+[2023-09-22T23:57:22.967+0000] {processor.py:154} INFO - Started process (PID=1192) to work on /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:57:22.969+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/crt_tbls_trs_data.py for tasks to queue
+[2023-09-22T23:57:22.971+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:57:22.970+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:57:23.027+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_multi_table']) retrieved from /opt/airflow/dags/crt_tbls_trs_data.py
+[2023-09-22T23:57:23.057+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:57:23.056+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-22T23:57:23.076+0000] {logging_mixin.py:120} INFO - [2023-09-22T23:57:23.076+0000] {dag.py:3340} INFO - Setting next_dagrun for create_multi_table to 2023-09-22T00:00:00+00:00, run_after=2023-09-23T00:00:00+00:00
+[2023-09-22T23:57:23.100+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/crt_tbls_trs_data.py took 0.135 seconds
