@@ -1,0 +1,7 @@
+[2023-09-28T22:23:51.968+0000] {processor.py:154} INFO - Started process (PID=54) to work on /opt/airflow/dags/process_data.py
+[2023-09-28T22:23:51.970+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/process_data.py for tasks to queue
+[2023-09-28T22:23:51.972+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:51.972+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/process_data.py
+[2023-09-28T22:23:52.321+0000] {processor.py:766} INFO - DAG(s) dict_keys(['create_tables']) retrieved from /opt/airflow/dags/process_data.py
+[2023-09-28T22:23:52.386+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:52.386+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-28T22:23:52.462+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:52.462+0000] {dag.py:3340} INFO - Setting next_dagrun for create_tables to 2023-09-28T00:00:00+00:00, run_after=2023-09-29T00:00:00+00:00
+[2023-09-28T22:23:52.503+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/process_data.py took 0.542 seconds

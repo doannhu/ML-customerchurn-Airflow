@@ -1,0 +1,8 @@
+[2023-09-28T22:23:52.431+0000] {processor.py:154} INFO - Started process (PID=61) to work on /opt/airflow/dags/data_retrieval.py
+[2023-09-28T22:23:52.433+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/data_retrieval.py for tasks to queue
+[2023-09-28T22:23:52.435+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:52.434+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/data_retrieval.py
+[2023-09-28T22:23:52.545+0000] {logging_mixin.py:120} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-09-28T22:23:52.566+0000] {processor.py:766} INFO - DAG(s) dict_keys(['process_data']) retrieved from /opt/airflow/dags/data_retrieval.py
+[2023-09-28T22:23:52.644+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:52.644+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-09-28T22:23:52.699+0000] {logging_mixin.py:120} INFO - [2023-09-28T22:23:52.698+0000] {dag.py:3340} INFO - Setting next_dagrun for process_data to 2023-09-28T00:00:00+00:00, run_after=2023-09-29T00:00:00+00:00
+[2023-09-28T22:23:52.742+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/data_retrieval.py took 0.317 seconds
